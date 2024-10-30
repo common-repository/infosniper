@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .leaflet-map {
+  height: 400px;
+  z-index: 0;
+ }
+
+
+ /* Ugly !important css to prevent underlines on zoom icons */
+ .leaflet-bar a {
+   text-decoration: none !important; 
+ }
